@@ -1,0 +1,21 @@
+{
+    "name": "LED-Control-Module",
+    "version": "0.0.1",
+    "description": "LED Control Library for WS2812b",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/3STechLabs-org/LEDControlModule.git"
+    },
+    "keywords": "EMS-ESP-LED-Control-Module",
+    "authors": {
+      "name": "Azhar",
+      "maintainer": true
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "build": {
+      "includeDir": ".",
+      "extraScript": "extra_script.py"
+    }
+  }
