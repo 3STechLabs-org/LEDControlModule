@@ -19,7 +19,7 @@ void LEDControlModule::loop() {
 
 void LEDControlModule::configureLED(size_t index, uint8_t r, uint8_t g, uint8_t b, bool blink) {
     if (index >= NUM_LEDS) {
-        EMSESP::logger().error("Invalid LED index: %d", index);
+        EMSESP::logger().info("Invalid LED index: %d", index);
         return;
     }
 
